@@ -9,10 +9,12 @@ public class Dog {
    public int age;
 
     void bark(){
+        System.out.println("Dog bark mew mew");
 
     }
 
     void sleep (){
+        System.out.println("max love to sleep");
 
     }
 

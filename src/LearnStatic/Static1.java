@@ -6,9 +6,12 @@ public class Static1 {
 
         Dog fido = new Dog();
         Dog airBud = new Dog();
+        Dog max = new Dog();
 
         fido.breed = "German Shephard";
         airBud.breed = "Golden Retriever";
+        max.sleep();
+        max.bark();
 
         System.out.println(fido.breed);
         System.out.println(airBud.breed);
